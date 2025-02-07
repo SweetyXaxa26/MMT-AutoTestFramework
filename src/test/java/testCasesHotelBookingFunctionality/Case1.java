@@ -16,6 +16,7 @@ public class Case1 extends Setup {
 	PropertyListing_pageObject plpo = new PropertyListing_pageObject();
 	PropertyDetail_PageObject pdpo = new PropertyDetail_PageObject();
 	Payment_pageObject ppo = new Payment_pageObject();
+	
 	@Test
 	public void Script() throws InterruptedException
 	{
@@ -34,7 +35,6 @@ public class Case1 extends Setup {
       pdpo.BookNow();
       ppo.executeExtractHotelDetails();
       
-      Thread.sleep(50000);
       
       
       
