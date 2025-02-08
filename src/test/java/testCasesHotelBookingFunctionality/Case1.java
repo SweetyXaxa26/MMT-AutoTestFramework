@@ -36,8 +36,6 @@ public class Case1 extends Setup {
       ppo.executeExtractHotelDetails();
       
       
-      
-      
 	}
 
 }
