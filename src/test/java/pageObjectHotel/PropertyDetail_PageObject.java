@@ -1,7 +1,7 @@
-package pageObject;
+package pageObjectHotel;
 
 import common.Seleniumaction;
-import locator.PropertyDetail_pageLocator;
+import locatorHotel.PropertyDetail_pageLocator;
 
 public class PropertyDetail_PageObject extends PropertyDetail_pageLocator 
 {

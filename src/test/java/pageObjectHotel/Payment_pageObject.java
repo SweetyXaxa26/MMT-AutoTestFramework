@@ -1,7 +1,7 @@
-package pageObject;
+package pageObjectHotel;
 
 import common.Seleniumaction;
-import locator.Payment_pageLocator;
+import locatorHotel.Payment_pageLocator;
 
 public class Payment_pageObject extends Payment_pageLocator{
 	

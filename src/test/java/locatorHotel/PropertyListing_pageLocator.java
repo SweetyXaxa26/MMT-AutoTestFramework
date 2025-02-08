@@ -1,4 +1,4 @@
-package locator;
+package locatorHotel;
 
 import org.openqa.selenium.By;
 
