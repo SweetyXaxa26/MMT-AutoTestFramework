@@ -4,10 +4,10 @@ import org.testng.annotations.Test;
 
 import base.Setup;
 import common.Seleniumaction;
-import pageObject.Home_pageObject;
-import pageObject.Payment_pageObject;
-import pageObject.PropertyDetail_PageObject;
-import pageObject.PropertyListing_pageObject;
+import pageObjectHotel.Home_pageObject;
+import pageObjectHotel.Payment_pageObject;
+import pageObjectHotel.PropertyDetail_PageObject;
+import pageObjectHotel.PropertyListing_pageObject;
 
 public class Case1 extends Setup {
 	
