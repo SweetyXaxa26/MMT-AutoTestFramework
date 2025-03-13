@@ -7,14 +7,17 @@ public class PropertyDetail_PageObject extends PropertyDetail_pageLocator
 {
 	Seleniumaction sa = new Seleniumaction();
 	
-	public void switchWindowtoNewTab()
+	
+	
+	public void executeNeartoBooking()
 	{
-		sa.SwitchWindow();
+		sa.scrolltoParticularElement(neartoBooknow);
 	}
+	
 
-	public void BookNow()
+	public void executeBookNow()
 	{
-		sa.JavaScriptAction(bookNow);
+		sa.clickElement(bookNow);
 	}
 	
 }
