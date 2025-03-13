@@ -1,4 +1,4 @@
-package locatorTrain;
+package bookTrainTicketlocatorTrain;
 
 import org.openqa.selenium.By;
 

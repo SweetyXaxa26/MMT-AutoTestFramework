@@ -1,7 +1,7 @@
-package pageObjectTrain;
+package bookTrainTicketpageObject;
 
+import bookTrainTicketlocatorTrain.CheckoutPagelocator;
 import common.Seleniumaction;
-import locatorTrain.CheckoutPagelocator;
 
 public class CheckoutPageObject extends CheckoutPagelocator {
 
