@@ -1,23 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite parallel="methods" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" parallel="methods" name="Test(failed)">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="testCasesTrainBookingFunctionality.TrainSearchToCheckout">
+      <class name="testCasesHotelBookingFunctionality.Case1">
         <methods>
-          <include name="Script001Serch"/>
+          <include name="Script"/>
           <include name="bm"/>
           <include name="am"/>
-          <include name="Script002TrainList"/>
-          <include name="bs"/>
           <include name="bc"/>
+          <include name="bs"/>
+          <include name="ac"/>
           <include name="as"/>
           <include name="bt"/>
-          <include name="ac"/>
           <include name="at"/>
-          <include name="Script003TrainBookingCheckout"/>
         </methods>
-      </class> <!-- testCasesTrainBookingFunctionality.TrainSearchToCheckout -->
+      </class> <!-- testCasesHotelBookingFunctionality.Case1 -->
+      <class name="testCasesHotelBookingFunctionality.Case2">
+        <methods>
+          <include name="bm"/>
+          <include name="am"/>
+          <include name="bc"/>
+          <include name="bs"/>
+          <include name="ac"/>
+          <include name="as"/>
+          <include name="bt"/>
+          <include name="at"/>
+          <include name="ScriptVerify"/>
+        </methods>
+      </class> <!-- testCasesHotelBookingFunctionality.Case2 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
