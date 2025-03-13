@@ -6,14 +6,12 @@ import org.testng.annotations.Test;
 
 import base.Setup;
 import common.Seleniumaction;
-import pageObjectHotel.Home_pageObject;
-import pageObjectHotel.Checkout_pageObject;
-import pageObjectHotel.PropertyDetail_PageObject;
-import pageObjectHotel.PropertyListing_pageObject;
+
+
 import pageObjectTrain.CheckoutPageObject;
 import pageObjectTrain.HomePageObject;
 import pageObjectTrain.TrainListPageObject;
-import verifyHotelDetails.VerifyAll;
+
 
 public class TrainSearchToCheckout extends Setup {
 	
