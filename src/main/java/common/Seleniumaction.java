@@ -74,17 +74,22 @@ public class Seleniumaction extends Setup
 		((JavascriptExecutor) driver).executeScript("arguments[0].click();", element);	
 	}
 	
-	public void SwitchWindow(  )
+	public void SwitchWindow( By locator  )
 	{
-		// Switch to new window
-        Set<String> allWindowHandles = driver.getWindowHandles();
-        Iterator<String> iterator = allWindowHandles.iterator();
+		 String originalWindow = driver.getWindowHandle();
+		 WebElement element = driver.findElement(locator);
+			element.click();
+			
+			Set<String> allWindows = driver.getWindowHandles();
 
-        String parentWindow = iterator.next();
-        String childWindow = iterator.next();
-
-        driver.switchTo().window(childWindow); // Switch to the child tab
-
+			for (String window : allWindows)
+			{
+			    if (!window.equals(originalWindow)) 
+			    {
+			        driver.switchTo().window(window); // Switch to the new tab
+			        break;
+			    }
+			}
 	}
 	public void JavaScriptAction(By locator)
 	{
@@ -95,5 +100,19 @@ public class Seleniumaction extends Setup
 	     act.moveToElement(Element).click().perform();
 	        
 	}
+	public void scrolltoParticularElement(By locator)
+	{
+		WebElement Element = driver.findElement(locator); 
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("arguments[0].scrollIntoView(true);", Element);
+	}
 
+	public String  verifytext(By locator)
+	{
+		wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		WebElement element  = wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
+		String text = element.getText();
+		return text ;
+		
+	}
 }

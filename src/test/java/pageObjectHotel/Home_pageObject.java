@@ -22,11 +22,17 @@ public class Home_pageObject extends Home_pageLocator {
 		sa.clickElementWebElement(Upto4Rooms);
 	}
 	
-	public void executeCityDetail()
+	public void executeCityDetail() throws InterruptedException
 	{
 		sa.clickthroughAction(city);
-		sa.clickthroughAction(cityText);
+		//sa.clickthroughAction(cityText);
+		sa.sendKeysElement(cityText, "Goa ");
+		Thread.sleep(5000);
 		sa.clickElement(Select1stopt);
+	}
+	public void executedate()
+	{
+		sa.clickthroughJavaScript(nextmonth);	
 	}
 	
 	public void executeCheckIn()
@@ -52,7 +58,7 @@ public class Home_pageObject extends Home_pageLocator {
 	
 	public void executeSearch()
 	{
-		sa.clickthroughJavaScript(Search);
+		sa.SwitchWindow(Search);
 	}
 	
 	

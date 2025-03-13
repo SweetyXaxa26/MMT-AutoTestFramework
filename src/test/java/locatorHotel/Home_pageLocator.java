@@ -19,9 +19,11 @@ public class Home_pageLocator {
 	
 	public static By checkIn = By.xpath("//span[@class='lbl_input appendBottom5' and text()='Check-In']");
 	
-	public static By checkInDate =By.xpath("//div[@aria-label='Thu Feb 13 2025' and text()='13']");
+	public static By nextmonth = By.xpath("//span[@class='DayPicker-NavButton DayPicker-NavButton--next']");
 	
-	public static By checkOutDate =By.xpath("//div[@aria-label='Sat Feb 15 2025' and text()='15']");
+	public static By checkInDate =By.xpath("//div[@aria-label='Tue May 20 2025' and text()='20']");
+	
+	public static By checkOutDate =By.xpath("//div[@aria-label='Sat May 24 2025' and text()='24']");
 	
 	public static By room_Guest =By.xpath("//input[@id='guest']");
 	

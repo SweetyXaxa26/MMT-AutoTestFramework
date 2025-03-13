@@ -12,7 +12,7 @@ import pageObjectHotel.PropertyDetail_PageObject;
 import pageObjectHotel.PropertyListing_pageObject;
 import verifyHotelDetails.VerifyAll;
 
-public class Case1 extends Setup {
+public class Case2 extends Setup {
 	
 	Seleniumaction sa = new Seleniumaction();
 	Home_pageObject hpo = new Home_pageObject();
@@ -23,7 +23,7 @@ public class Case1 extends Setup {
 	
 	
 	@Test
-	public void Script() throws InterruptedException
+	public void ScriptVerify() throws InterruptedException
 	{
       sa.openURL("https://www.makemytrip.com/");
       hpo.popUp();
@@ -40,14 +40,11 @@ public class Case1 extends Setup {
       plpo.executeProprtyClick();
       pdpo.executeNeartoBooking();
       pdpo.executeBookNow();
+      verify1.verifyRoomType();
+      verify1.verifyFits();
+
       
       
 	}
 
-	
-	
-	
-
 }
-
-

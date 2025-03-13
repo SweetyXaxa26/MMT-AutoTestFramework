@@ -7,8 +7,14 @@ public class PropertyListing_pageObject extends PropertyListing_pageLocator {
 
 Seleniumaction sa = new Seleniumaction();
 	
+     public void executeScroll()
+     {
+	    sa.scrolltoParticularElement(ScroltoProperty);
+     }
+
 	public void executeProprtyClick()
 	{
-	sa.clickthroughActionMoveTo(property);	
+	sa.SwitchWindow(property);;	
 	}
+	
 }
