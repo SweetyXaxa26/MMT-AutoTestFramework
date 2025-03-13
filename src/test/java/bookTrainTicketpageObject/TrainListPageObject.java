@@ -1,8 +1,8 @@
 
-package pageObjectTrain;
+package bookTrainTicketpageObject;
 
+import bookTrainTicketlocatorTrain.TrainListPagelocator;
 import common.Seleniumaction;
-import locatorTrain.TrainListPagelocator;
 
 public class TrainListPageObject extends TrainListPagelocator {
 

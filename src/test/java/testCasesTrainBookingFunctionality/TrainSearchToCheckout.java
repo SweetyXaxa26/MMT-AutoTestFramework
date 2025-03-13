@@ -5,12 +5,10 @@ import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
 import base.Setup;
+import bookTrainTicketpageObject.CheckoutPageObject;
+import bookTrainTicketpageObject.HomePageObject;
+import bookTrainTicketpageObject.TrainListPageObject;
 import common.Seleniumaction;
-
-
-import pageObjectTrain.CheckoutPageObject;
-import pageObjectTrain.HomePageObject;
-import pageObjectTrain.TrainListPageObject;
 
 
 public class TrainSearchToCheckout extends Setup {

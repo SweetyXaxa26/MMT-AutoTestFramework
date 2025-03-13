@@ -2,68 +2,68 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-13T13:06:00 IST" name="Suite" finished-at="2025-03-13T13:07:04 IST" duration-ms="63992">
+  <suite started-at="2025-03-13T13:33:29 IST" name="Suite" finished-at="2025-03-13T13:34:36 IST" duration-ms="67108">
     <groups>
     </groups>
-    <test started-at="2025-03-13T13:06:00 IST" name="Test" finished-at="2025-03-13T13:07:04 IST" duration-ms="63992">
+    <test started-at="2025-03-13T13:33:29 IST" name="Test" finished-at="2025-03-13T13:34:36 IST" duration-ms="67108">
       <class name="testCasesTrainBookingFunctionality.TrainSearchToCheckout">
-        <test-method is-config="true" signature="bs()[pri:0, instance:testCasesTrainBookingFunctionality.TrainSearchToCheckout@4562e04d]" started-at="2025-03-13T13:06:00 IST" name="bs" finished-at="2025-03-13T13:06:00 IST" duration-ms="9" status="PASS">
+        <test-method is-config="true" signature="bs()[pri:0, instance:testCasesTrainBookingFunctionality.TrainSearchToCheckout@4562e04d]" started-at="2025-03-13T13:33:29 IST" name="bs" finished-at="2025-03-13T13:33:29 IST" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bs -->
-        <test-method is-config="true" signature="bt()[pri:0, instance:testCasesTrainBookingFunctionality.TrainSearchToCheckout@4562e04d]" started-at="2025-03-13T13:06:00 IST" name="bt" finished-at="2025-03-13T13:06:00 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="bt()[pri:0, instance:testCasesTrainBookingFunctionality.TrainSearchToCheckout@4562e04d]" started-at="2025-03-13T13:33:29 IST" name="bt" finished-at="2025-03-13T13:33:29 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bt -->
-        <test-method is-config="true" signature="bc()[pri:0, instance:testCasesTrainBookingFunctionality.TrainSearchToCheckout@4562e04d]" started-at="2025-03-13T13:06:00 IST" name="bc" finished-at="2025-03-13T13:06:00 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="bc()[pri:0, instance:testCasesTrainBookingFunctionality.TrainSearchToCheckout@4562e04d]" started-at="2025-03-13T13:33:29 IST" name="bc" finished-at="2025-03-13T13:33:29 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bc -->
-        <test-method is-config="true" signature="bm()[pri:0, instance:testCasesTrainBookingFunctionality.TrainSearchToCheckout@4562e04d]" started-at="2025-03-13T13:06:00 IST" name="bm" finished-at="2025-03-13T13:06:03 IST" duration-ms="2795" status="PASS">
+        <test-method is-config="true" signature="bm()[pri:0, instance:testCasesTrainBookingFunctionality.TrainSearchToCheckout@4562e04d]" started-at="2025-03-13T13:33:29 IST" name="bm" finished-at="2025-03-13T13:33:37 IST" duration-ms="7641" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bm -->
-        <test-method signature="Script001Serch()[pri:0, instance:testCasesTrainBookingFunctionality.TrainSearchToCheckout@4562e04d]" started-at="2025-03-13T13:06:03 IST" name="Script001Serch" finished-at="2025-03-13T13:06:19 IST" duration-ms="16888" status="PASS">
+        <test-method signature="Script001Serch()[pri:0, instance:testCasesTrainBookingFunctionality.TrainSearchToCheckout@4562e04d]" started-at="2025-03-13T13:33:37 IST" name="Script001Serch" finished-at="2025-03-13T13:33:53 IST" duration-ms="16422" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Script001Serch -->
-        <test-method is-config="true" signature="am()[pri:0, instance:testCasesTrainBookingFunctionality.TrainSearchToCheckout@4562e04d]" started-at="2025-03-13T13:06:19 IST" name="am" finished-at="2025-03-13T13:06:20 IST" duration-ms="704" status="PASS">
+        <test-method is-config="true" signature="am()[pri:0, instance:testCasesTrainBookingFunctionality.TrainSearchToCheckout@4562e04d]" started-at="2025-03-13T13:33:53 IST" name="am" finished-at="2025-03-13T13:33:54 IST" duration-ms="645" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- am -->
-        <test-method is-config="true" signature="bm()[pri:0, instance:testCasesTrainBookingFunctionality.TrainSearchToCheckout@4562e04d]" started-at="2025-03-13T13:06:20 IST" name="bm" finished-at="2025-03-13T13:06:23 IST" duration-ms="2489" status="PASS">
+        <test-method is-config="true" signature="bm()[pri:0, instance:testCasesTrainBookingFunctionality.TrainSearchToCheckout@4562e04d]" started-at="2025-03-13T13:33:54 IST" name="bm" finished-at="2025-03-13T13:33:56 IST" duration-ms="2083" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bm -->
-        <test-method signature="Script002TrainList()[pri:0, instance:testCasesTrainBookingFunctionality.TrainSearchToCheckout@4562e04d]" started-at="2025-03-13T13:06:23 IST" name="Script002TrainList" finished-at="2025-03-13T13:06:40 IST" duration-ms="16971" status="PASS">
+        <test-method signature="Script002TrainList()[pri:0, instance:testCasesTrainBookingFunctionality.TrainSearchToCheckout@4562e04d]" started-at="2025-03-13T13:33:56 IST" name="Script002TrainList" finished-at="2025-03-13T13:34:12 IST" duration-ms="15810" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Script002TrainList -->
-        <test-method is-config="true" signature="am()[pri:0, instance:testCasesTrainBookingFunctionality.TrainSearchToCheckout@4562e04d]" started-at="2025-03-13T13:06:40 IST" name="am" finished-at="2025-03-13T13:06:40 IST" duration-ms="801" status="PASS">
+        <test-method is-config="true" signature="am()[pri:0, instance:testCasesTrainBookingFunctionality.TrainSearchToCheckout@4562e04d]" started-at="2025-03-13T13:34:12 IST" name="am" finished-at="2025-03-13T13:34:13 IST" duration-ms="661" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- am -->
-        <test-method is-config="true" signature="bm()[pri:0, instance:testCasesTrainBookingFunctionality.TrainSearchToCheckout@4562e04d]" started-at="2025-03-13T13:06:40 IST" name="bm" finished-at="2025-03-13T13:06:43 IST" duration-ms="2211" status="PASS">
+        <test-method is-config="true" signature="bm()[pri:0, instance:testCasesTrainBookingFunctionality.TrainSearchToCheckout@4562e04d]" started-at="2025-03-13T13:34:13 IST" name="bm" finished-at="2025-03-13T13:34:15 IST" duration-ms="1978" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bm -->
-        <test-method signature="Script003TrainBookingCheckout()[pri:0, instance:testCasesTrainBookingFunctionality.TrainSearchToCheckout@4562e04d]" started-at="2025-03-13T13:06:43 IST" name="Script003TrainBookingCheckout" finished-at="2025-03-13T13:07:03 IST" duration-ms="20310" status="PASS">
+        <test-method signature="Script003TrainBookingCheckout()[pri:0, instance:testCasesTrainBookingFunctionality.TrainSearchToCheckout@4562e04d]" started-at="2025-03-13T13:34:15 IST" name="Script003TrainBookingCheckout" finished-at="2025-03-13T13:34:35 IST" duration-ms="20570" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Script003TrainBookingCheckout -->
-        <test-method is-config="true" signature="am()[pri:0, instance:testCasesTrainBookingFunctionality.TrainSearchToCheckout@4562e04d]" started-at="2025-03-13T13:07:03 IST" name="am" finished-at="2025-03-13T13:07:04 IST" duration-ms="773" status="PASS">
+        <test-method is-config="true" signature="am()[pri:0, instance:testCasesTrainBookingFunctionality.TrainSearchToCheckout@4562e04d]" started-at="2025-03-13T13:34:35 IST" name="am" finished-at="2025-03-13T13:34:36 IST" duration-ms="1257" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- am -->
-        <test-method is-config="true" signature="ac()[pri:0, instance:testCasesTrainBookingFunctionality.TrainSearchToCheckout@4562e04d]" started-at="2025-03-13T13:07:04 IST" name="ac" finished-at="2025-03-13T13:07:04 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="ac()[pri:0, instance:testCasesTrainBookingFunctionality.TrainSearchToCheckout@4562e04d]" started-at="2025-03-13T13:34:36 IST" name="ac" finished-at="2025-03-13T13:34:36 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ac -->
-        <test-method is-config="true" signature="at()[pri:0, instance:testCasesTrainBookingFunctionality.TrainSearchToCheckout@4562e04d]" started-at="2025-03-13T13:07:04 IST" name="at" finished-at="2025-03-13T13:07:04 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="at()[pri:0, instance:testCasesTrainBookingFunctionality.TrainSearchToCheckout@4562e04d]" started-at="2025-03-13T13:34:36 IST" name="at" finished-at="2025-03-13T13:34:36 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- at -->
-        <test-method is-config="true" signature="as()[pri:0, instance:testCasesTrainBookingFunctionality.TrainSearchToCheckout@4562e04d]" started-at="2025-03-13T13:07:04 IST" name="as" finished-at="2025-03-13T13:07:04 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="as()[pri:0, instance:testCasesTrainBookingFunctionality.TrainSearchToCheckout@4562e04d]" started-at="2025-03-13T13:34:36 IST" name="as" finished-at="2025-03-13T13:34:36 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- as -->

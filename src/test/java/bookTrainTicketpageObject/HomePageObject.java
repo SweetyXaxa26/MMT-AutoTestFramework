@@ -1,7 +1,7 @@
-package pageObjectTrain;
+package bookTrainTicketpageObject;
 
+import bookTrainTicketlocatorTrain.HomePagelocator;
 import common.Seleniumaction;
-import locatorTrain.HomePagelocator;
 
 public class HomePageObject extends HomePagelocator {
 
